@@ -1,8 +1,9 @@
-///<reference path="libs/pixi.d.ts"/>
+///<reference path="libs\pixi.d.ts"/>
 
-module PixiTests {
+export module PixiTests {
 
     export class PixiBasics {
+
         private document:Document;
         private bunny: PIXI.Sprite;
         private renderer: PIXI.IPixiRenderer;
@@ -29,6 +30,7 @@ module PixiTests {
 
             // create a texture from an image path
             this.texture = PIXI.Texture.fromImage("bunny.png");
+
             // create a new Sprite using the texture
             this.bunny = new PIXI.Sprite(this.texture);
 

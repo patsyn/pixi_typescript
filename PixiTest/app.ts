@@ -1,7 +1,8 @@
-///<reference path="PixiBasics.ts"/>
+///<reference path="libs\require.d.ts"/>
 
-window.onload = () => {
-    var greeter = new PixiTests.PixiBasics(<Document>document);
-    
+import basicsRef = require("PixiBasics");
+
+require(['PixiBasics', 'Scripts/libs/pixi'], () => {
+    var greeter = new basicsRef.PixiTests.PixiBasics(document);
     greeter.start();
-};
+});
