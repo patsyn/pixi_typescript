@@ -1,7 +1,7 @@
 pixi_typescript
 ===============
 
-A Pixi.js TypeScript example.
+A pixi.js TypeScript example.
 
 It's based on this pixi.js tutorial: http://www.goodboydigital.com/pixi-js-tutorial-getting-started/
 
