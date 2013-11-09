@@ -2,7 +2,7 @@
 
 import basicsRef = require("PixiBasics");
 
-require(['PixiBasics', 'Scripts/libs/pixi'], () => {
+require(['PixiBasics', 'libs/pixi'], () => {
     var greeter = new basicsRef.PixiTests.PixiBasics(document);
     greeter.start();
 });

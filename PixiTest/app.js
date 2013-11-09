@@ -2,7 +2,7 @@
 define(["require", "exports", "PixiBasics"], function(require, exports, __basicsRef__) {
     var basicsRef = __basicsRef__;
 
-    require(['PixiBasics', 'Scripts/libs/pixi'], function () {
+    require(['PixiBasics', 'libs/pixi'], function () {
         var greeter = new basicsRef.PixiTests.PixiBasics(document);
         greeter.start();
     });
